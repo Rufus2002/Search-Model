@@ -90,7 +90,7 @@ index.add(embeddings_array)
 print("FAISS index created and embeddings added successfully.")
 
 # Streamlit app interface
-st.title("Course Search and Filter")
+st.title("Analytics Vidhya")
 
 # Search box for query input
 query_text = st.text_input("Enter keywords to search for courses:")
