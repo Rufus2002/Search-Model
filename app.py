@@ -110,5 +110,6 @@ distances, indices = index.search(np.array([query_embedding]).astype('float32'),
 # Display the results
 st.header("Search Results:")
 for idx in indices[0]:
-    print(st.write(f"{courses[idx]['title']},Description: {courses[idx]['description']}"))
+    print(st.write(f"{courses[idx]['title']}"))
+    print(st.write(f"{Description: {courses[idx]['description']}"))
     
