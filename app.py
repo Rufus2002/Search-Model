@@ -2,6 +2,7 @@ import torch
 import faiss
 import numpy as np
 from transformers import AutoTokenizer, AutoModel
+import streamlit as st
 
 # Load a model that supports embedding generation from Hugging Face
 model_name = "sentence-transformers/all-MiniLM-L6-v2"
