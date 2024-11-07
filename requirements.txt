@@ -1,5 +1,5 @@
 transformers
-faiss-gpu
+faiss
 numpy
 pandas
 streamlit
