@@ -1,5 +1,5 @@
 transformers
-faiss
+faiss-cpu
 numpy
 pandas
 streamlit
