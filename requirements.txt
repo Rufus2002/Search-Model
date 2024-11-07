@@ -2,3 +2,4 @@ transformers
 faiss-gpu
 numpy
 pandas
+streamlit
