@@ -1,0 +1,4 @@
+transformers
+faiss-gpu
+numpy
+pandas
