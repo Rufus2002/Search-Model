@@ -104,11 +104,11 @@ selected_domain = st.selectbox("Select Domain", options=["All", "Programming", "
 query_embedding = get_embeddings(query_text)
 
 # Perform the FAISS search
-k = 2  # Number of nearest neighbors
+k = 5  # Number of nearest neighbors
 distances, indices = index.search(np.array([query_embedding]).astype('float32'), k)
 
 # Display the results
 st.header("Search Results:")
 for idx in indices[0]:
-    print(st.write(f"{courses[idx]['title']},/n Description: {courses[idx]['description']}"))
+    print(st.write(f"{courses[idx]['title']},Description: {courses[idx]['description']}"))
     
