@@ -59,6 +59,7 @@ k = 2  # Number of nearest neighbors
 distances, indices = index.search(np.array([query_embedding]).astype('float32'), k)
 
 # Display the results
-print("Search Results:")
+st.header("Search Results:")
 for idx in indices[0]:
-    print(f"Course Title: {courses[idx]['title']}, Description: {courses[idx]['description']}")
+    print(st.write(f"Course Title: {courses[idx]['title']}, Description: {courses[idx]['description']}"))
+    
